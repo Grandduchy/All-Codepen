@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Asap');
+@keyframes move {
+  from {
+    transform:translate3d(0px,0px,0px);
+  }
+
+  to {
+    transform:translate3d(0px,-208px,0px);
+  }
+}
+body {
+  background-color:#262626;
+}
+
+h1 {
+  font-family:Lora,Monospace;
+  color:white;
+  font-size:40px;
+}
+
+.main {
+  width:55%;
+  height:120px;
+  background-color:rgba(0,144,240,1);
+  text-align:center;
+  margin:auto;
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  border-radius:15px;
+}
+.animate {
+  animation-name:move;
+  animation-duration:4s;
+  animation-fill-mode:forwards;
+}
+input {
+  margin-top:30px;
+  border:rgba(73,155,234,1) 3px inset;
+  border-radius:50px;
+  background-color:#C9C9C9;
+  display:inline;
+  width:70%;
+  height:40px;
+  font-size:22px;
+  font-family:Exo;
+  padding-left:8px;
+}
+button {
+  display:inline;
+  background-color:rgba(0,144,240,1);
+  border:none;
+}
+#question {
+  margin-top:8px;
+  margin-left:15px;
+  cursor:help;
+  float:left;
+}
+.searchtopic {
+  color:black;
+  padding-top:4px;
+  padding-left:10px;
+  padding-bottom:5px;
+  background-color:#C9C9C9;
+}
+#random {
+  float:right;
+  margin-right:15px;
+  margin-top:8px;
+  cursor:pointer;
+}
+a {
+  color:#262626;
+  text-decoration:none;
+}
+a:hover {
+  color:black;
+}
+a:link, a:visited {
+  text-decoration:none;
+}
+.jkl {
+  width:100%;
+  height:auto;
+  position:relative;
+  top:135px;
+  margin:auto;
+  padding-bottom:10px;
+}
+
+.border {
+  border-bottom:solid rgba(0,144,240,1) 2px;
+  border-left:solid rgba(0,144,240,1) 2px;
+}
+.search_result {
+  margin-top:10px;
+  width:100%;
+  color:white;
+  padding-top:4px;
+  padding-left:10px;
+  padding-bottom:5px;
+  background-color:grey;
+  border-bottom:solid rgba(0,144,240,1) 1px;
+  border-left:solid rgba(0,144,240,1) 2px;
+}

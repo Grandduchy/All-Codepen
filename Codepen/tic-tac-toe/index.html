@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div id = "title"><h1 class = "text-center">Tic Tac Toe</h1></div>
+<div class = "gameboard">
+   <div class = "choose">
+     <div class = "text-center start">
+       <button class = "btn btn-default" id = "X">X</button>
+       <span style="font-family:ariel" id = "or">or</span>
+       <button class = "btn btn-default" id = "O">O</button> 
+     </div>
+
+    </div>
+  <div class = "wrapper">
+  <!-- Lines -->
+  <div class = "vertical-left"></div>
+  <div class = "vertical-right"></div>
+  <div class = "horizontal-top"></div>
+  <div class = "horizontal-bottom"></div>
+  <!--Boxes -->
+    <div id = "boxes">
+ <div id = "first-row">
+   <div class = "box" id = "topLeft">
+     </div>
+     <div class = "box" id = "topMiddle">
+   </div>
+   <div class = "box" id = "topRight">
+   </div>
+   </div><!-- first row -->
+  <div id = "second-row">
+    <div class = "box" id = "middleLeft">
+    </div>
+    <div class = "box" id = "middleMiddle">
+    </div>
+    <div class = "box" id = "middleRight">
+    </div>
+  </div><!-- second row -->
+  <div id = "third-row">
+    <div class = "box" id = "bottomLeft">
+    </div>
+    <div class = "box" id = "bottomMiddle">
+    </div>
+    <div class = "box" id = "bottomRight">
+    </div>
+  </div> <!-- third row -->
+    </div>
+        <!-- Boxes -->
+  </div><!-- wrapper -->
+  <button  class = "btn btn-success" id = "reset"> Reset Game</button>
+  <div class = "scoreboard">
+    <p>Player - 0 Computer - 0</p>
+  </div>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

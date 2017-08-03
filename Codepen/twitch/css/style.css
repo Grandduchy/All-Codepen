@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
+@import url('https://fonts.googleapis.com/css?family=Asap');
+body {
+  background-color:#660099;
+}
+.header {
+  width:100%;
+  height:85px;
+  background-color:#262626;
+}
+h1 {
+  color:white;
+  margin:auto;
+  padding:20px;
+  font-family:Taviraj;
+}
+.online {
+  margin-left:10px;
+  display:inline-block;
+  margin-top:30px;
+  width:39%;
+  height:auto;
+  padding-bottom:20px;
+  background-color:#FFFFFF;
+  float:left;
+}
+.middle {
+  margin-right:10px;
+  margin-left:10px;
+  width:18%;
+  height:400px;
+  position:relative;
+  display:inline-block;
+  margin-top:30px;
+}
+.symbol {
+  color:black;
+  position:absolute;
+  right:25%;
+  top:25%;
+}
+#white {
+  color:white;
+}
+.offline {
+  margin-right:10px;
+  float:right;
+  display:inline-block;
+  margin-top:30px;
+  width:36%;
+  height:auto;
+  padding-bottom:10px;
+  background-color:#404040;
+  margin-bottom:10px;
+}
+.click1 {
+  position:absolute;
+  right:40%;
+  top:13%;
+  font-size:20px;
+  color:white;
+  font-family:sans-serif;
+}
+.click2 {
+  position:absolute;
+  right:15%;
+  top:45%;
+  font-size:20px;
+  color:white;
+  font-family:sans-serif;
+}
+img {
+  height:40px;
+  width:40px;
+  display:inline-block;
+}
+.on_in {
+  height:auto;
+  width:100%;
+  background-color:#F2F2F2;
+  padding:10px;
+  margin-bottom:8px;
+  font-family:Asap;
+}
+.of_in {
+  background-color:white;
+}
+.center {
+  display:inline-block
+}
+.name {
+  margin:auto;
+  margin-left:10px;
+}
+.border {
+  border-radius:8px;
+  border: 2px green groove;
+}
+.border_offline {
+    border-radius:8px;
+  border: 2px black groove;
+}
+.enter {
+  background-color:#262626;
+  margin:auto;
+  width:50%;
+  height:100px;
+  text-align:center;
+  margin-top:10px;
+  clear:both;
+  font-family:Taviraj
+}
+#plus {
+  color:white;
+  cursor:pointer;
+}
+input {
+  width:65%;
+}

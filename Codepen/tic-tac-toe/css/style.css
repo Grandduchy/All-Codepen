@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma');
+html {
+  height:100%;
+}
+body {
+  height:100%;
+  background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 24%,rgba(32,124,202,1) 70%,rgba(125,185,232,1) 100%) fixed;
+}
+.wrapper {
+  display:none;
+}
+#reset {
+  position:absolute;
+  top:496px;
+  right:0;
+  bottom:0;
+  left:0px;
+  height:50px;
+  width:110px;
+  box-shadow:2px 2px 2px #333333;
+}
+h1 {
+  font-size:50px;
+  font-family:Pacifico;
+  color:black;
+}
+#title {
+  background-color:rgba(0,0,0,0)
+}
+.start{
+  margin-top:100px;
+  font-family:Baloo Tamma;
+  font-size:70px;
+}
+h2 {
+  position:absolute;
+  top:35px;
+  left:70px;
+  padding:0;
+  margin:0;
+  font-family:Baloo Tamma;
+  font-size:90px;
+}
+#or {
+  margin-left:20px;
+  margin-right:20px;
+}
+div > div > h2:first-child {
+  margin-bottom:120px;
+}
+
+button {
+  height:90px;
+  width:90px;
+}
+#X,#O {
+  padding-top:9px;
+  font-size:50px;
+}
+
+.gameboard {
+  background-color:white;
+  border:groove 2px black;
+  border-radius:7px;
+  box-shadow:5px 5px 5px #333333;
+  width:600px;
+  height:500px;
+  margin:auto;
+  position:absolute;
+  right:0;
+  left:0;
+  top:30px;
+  bottom:0;
+}
+div > div > div:first-child {
+  margin-left:8px;
+}
+.box {
+  position:relative;
+  margin:0;
+  display:inline-block;
+  height:160px;
+  width:190px;
+  cursor:pointer;
+}
+.vertical-left,.vertical-right {
+  position:absolute;
+  height:485px;
+  width:5px;
+  background-color:#191919;
+  top:7px;
+  left:198px;
+  /**/
+  border-radius:20px;
+}
+.vertical-right {
+  left:392px;
+}
+.horizontal-top,.horizontal-bottom {
+  position:absolute;
+  left:7px;
+  height:5px;
+  width:585px;
+  background-color:#191919;
+  top:160px;
+  border-radius:20px;
+}
+.horizontal-bottom {
+  top:325px;
+}
+.choose {
+  margin:auto;
+  margin-top:50px;
+  border:black solid 1px;
+  height:400px;
+  width:450px;
+}
+.scoreboard {
+  background-color:#46b946;
+  height:50px;
+  width:250px;
+  position:absolute;
+  left:250px;
+  right:50px;
+  bottom:0;
+  top:496px;
+  box-shadow:2px 2px 2px #333333;
+}
+p {
+  color:white;
+  text-align:center;
+  margin-top:13px;
+}
