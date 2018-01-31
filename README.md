@@ -1,2 +1,3 @@
-# All-Codepen
-All of my codepen projects, can be found here:
+# Javascript Calendar
+JavaScript Calendar created in NodeJs<br />
+Note - This project is not maintained.
